@@ -26,6 +26,10 @@ header .wrapper {
 	text-align: center;
 }
 
+.intro-image{
+	justify-content:center;
+}
+
 .corpus {
 	background: #000;
 	padding: 3rem;
@@ -70,9 +74,7 @@ font-family: 'Spartan', Futura, sans-serif;
   font-weight: 300; /*300 400 600 700*/
   color: #eee;
 }
-h1, h2, h3, h4, h5, h6 {
-	
-}
+
 h1 {
 	font-size: 8rem;
 	font-weight: 700;
