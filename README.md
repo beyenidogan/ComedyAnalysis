@@ -1,2 +1,2 @@
-# [Visualizing Barbara Kruger](https://patriciabelen.github.io/bkruger/) 
-## Data Visualization class
+# Standup Comedy Visualized
+## Capstone Project for MSc Data Visualization and Analysis
