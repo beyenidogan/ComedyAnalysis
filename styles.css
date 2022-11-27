@@ -6,7 +6,6 @@
 header {
 	background-color: #394053;
 	height: 100vh; 
-	padding-top: 20px;
 	padding-top: 08%;
 }
 header .wrapper {
@@ -18,7 +17,10 @@ header .wrapper {
 	max-width: 1100px;
 	margin: 0 auto;
 	padding: 2rem;
-	display: flex;
+	/* display: flex; */
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 20px;
 	/* justify-content: center; */
 	align-items: center;
 }
@@ -33,40 +35,60 @@ header .wrapper {
 	justify-content:center;
 	/* padding: 50% 50% 80% 0%; */
 }
-.vizzes {
+.intro-text{
+	justify-content:top;
+	grid-column-start: 2; 
+	grid-column-end: 2;
+	/* padding: 50% 50% 80% 0%; */
+	display:flex;
+}
+.intro-title{
+	padding: 10 px;
+	height: auto;
+}
+.title-image{
+/*     width:540px; */
+	height: auto;
+  	max-width: 90%;
+}
+
+.intro-title-text{
+	top: 300px;
+	position: absolute;
+	display: block;
+}
+
+
+.vizcontainer {
 	background-color: #f5f5f5;
 }
-.corpus {
-	background: #1B2A2E;
-	padding: 3rem;
-}
 
+.footer {
+	background: #394053;
+	padding: 04%;
+	padding-top: 02%;
+	
+}
+.footer-text{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 6rem;
+}
 
 body {
-font-family: 'Spartan', Futura, sans-serif;
-  background: #f5f5f5;
-  line-height: 1.4;
-  font-size: 16px;
-  font-weight: 300; /*300 400 600 700*/
-  color: #eee;
+	font-family: 'Spartan', Futura, sans-serif;
+	background: #f5f5f5;
+	line-height: 1.4;
+	font-size: 16px;
+	font-weight: 300; 
+	color: #eee;
 }
 
-h1 {
+/* h1 {
 	font-size: 8rem;
 	font-weight: 700;
 	color: #eee;
 	margin:0;
-}
-h2 {
-	font-size: 6rem;
-	font-weight: 700;
-	color: #eee;
-	transform:skewX(170deg);
-}
-
-.intro {
-	width: 500px;
-}
-
+} */
 
 
