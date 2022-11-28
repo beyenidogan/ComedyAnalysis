@@ -1,7 +1,7 @@
 *, *:before, *:after {
   box-sizing: border-box !important;
   margin:0;
-  padding:0;
+/*   padding:0; */
 }
 header {
 	background-color: #394053;
@@ -11,7 +11,6 @@ header {
 header .wrapper {
 	position: relative;
 }
-
 
 .wrapper {
 	max-width: 1100px;
@@ -32,7 +31,9 @@ header .wrapper {
 }
 
 .intro-image{
-	justify-content:center;
+	justify-content:top;
+	height: auto;
+	max-width: 80%;
 	/* padding: 50% 50% 80% 0%; */
 }
 .intro-text{
@@ -40,24 +41,20 @@ header .wrapper {
 	grid-column-start: 2; 
 	grid-column-end: 2;
 	/* padding: 50% 50% 80% 0%; */
-	display:flex;
 }
 .intro-title{
-	padding: 10 px;
+	padding: 20 px;
 	height: auto;
 }
 .title-image{
-/*     width:540px; */
 	height: auto;
   	max-width: 90%;
 }
 
 .intro-title-text{
-	top: 300px;
-	position: absolute;
 	display: block;
+	padding-top: 10rem;;
 }
-
 
 .vizcontainer {
 	background-color: #f5f5f5;
@@ -84,11 +81,5 @@ body {
 	color: #eee;
 }
 
-/* h1 {
-	font-size: 8rem;
-	font-weight: 700;
-	color: #eee;
-	margin:0;
-} */
 
 
