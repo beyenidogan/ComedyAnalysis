@@ -6,7 +6,7 @@
 header {
 	background-color: #394053;
 	height: 100vh; 
-	padding-top: 08%;
+	padding-top: 06%;
 }
 header .wrapper {
 	position: relative;
@@ -19,7 +19,7 @@ header .wrapper {
 	/* display: flex; */
 	display: grid;
 	grid-template-columns: auto auto;
-	gap: 20px;
+	gap: 40px;
 	/* justify-content: center; */
 	align-items: center;
 }
@@ -51,9 +51,19 @@ header .wrapper {
   	max-width: 90%;
 }
 
+.scroll-image{
+	justify-content:center;
+
+}
+
 .intro-title-text{
 	display: block;
 	padding-top: 10rem;;
+}
+.disclaimer{
+	font-size: 12px;
+	color: rgba(245, 245, 245,0.5);
+	font-style: oblique;
 }
 
 .vizcontainer {
@@ -73,13 +83,40 @@ header .wrapper {
 }
 
 body {
-	font-family: 'Spartan', Futura, sans-serif;
+	/* font-family: 'Spartan', Futura, sans-serif; */
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
+	font-size: 14px; 
+	font-weight: 10;  
+	line-height: 1.6;
 	background: #f5f5f5;
-	line-height: 1.4;
-	font-size: 16px;
-	font-weight: 300; 
+	font-weight: lighter;
+	letter-spacing: .01rem;
+	/* line-height: 1.4;
+	font-size: 14px;
+	font-weight: 300;  */
 	color: #eee;
 }
 
-
-
+/* unvisited link */
+a:link {
+	color: #e1e1e1;
+	text-decoration-color: #e1e1e1;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: #d1d1d1;
+	text-decoration-color: #d1d1d1;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: #d1d1d1;
+	text-decoration-color: #d1d1d1;
+  }
+  
+  /* selected link */
+  a:active {
+	color: #d1d1d1;
+	text-decoration-color: #d1d1d1;
+  }
