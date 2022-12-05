@@ -1,88 +1,84 @@
 <!doctype html>
 <html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Standup Comedy Visualized</title>
-	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-<link rel="stylesheet" href="styles.css" type="text/css" media="all" />
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600;700&display=swap" rel="stylesheet"> -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Standup Comedy Visualized</title>
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
+    </head>
 
-<body>   
-    <header>
-        <div class="wrapper">
-            <div id="intro-image">
-                <img src="assets/cover_images/CoverImage4.png">
-            </div> 
-            <div id="intro-text">
-                <div id="intro-title">
-                    <img src="assets/cover_images/Title5b.png" class="title-image">
-                </div>
-                <div id="intro-title-text">
-                    <p class="info">Stand-up comedy has become an increasingly popular form of comedy in the recent years. Live comedy shows generate <a href='https://data.pollstar.com/chart/2021/12/Top200NorthAmericanTours_984.pdf' target='_new'>hundreds of millions of revenues</a> and
-                        comedians also reach audiences beyond the halls they are performing through streaming services, podcasts and social media. 
-                        Watching stand-up comedy can be entertaining and relaxing but can also invite you to the minds of performers who share their most intimate thoughts or explore untapped social issues and provoke conversation.
-                        This project provides an visual exploration of <a href='https://scrapsfromtheloft.com/stand-up-comedy-scripts/' target='_new'>the works of stand-up comedians</a> who performed in their recent years, looking at a closer look at what and how they talk about.
-                    </p>
-                    <br>
-                    <p class="disclaimer">This site is best viewed on desktop browser.
-                    </p>
-                    <br>
-                    <img src="assets/cover_images/scroll_icon0.25.png" class="scroll-image">
-                </div>
-            </div>      
+    <body>   
+        <header>
+            <div class="wrapper">
+                <div id="intro-image">
+                    <img src="assets/cover_images/CoverImage4.png">
+                </div> 
+                <div id="intro-text">
+                    <div id="intro-title">
+                        <img src="assets/cover_images/Title5b.png" class="title-image">
+                    </div>
+                    <div id="intro-title-text">
+                        <p class="info">Stand-up comedy has become an increasingly popular form of comedy in the recent years. Live comedy shows generate <a href='https://data.pollstar.com/chart/2021/12/Top200NorthAmericanTours_984.pdf' target='_new'>hundreds of millions of revenues</a> and
+                            comedians also reach audiences beyond the halls they are performing through streaming services, podcasts and social media. 
+                            Watching stand-up comedy can be entertaining and relaxing but can also invite you to the minds of performers who share their most intimate thoughts or explore untapped social issues and provoke conversation.
+                            This project provides an visual exploration of <a href='https://scrapsfromtheloft.com/stand-up-comedy-scripts/' target='_new'>the works of stand-up comedians</a> who performed in their recent years, looking at a closer look at what and how they talk about.
+                        </p>
+                        <br>
+                        <p class="disclaimer">This site is best viewed on desktop browser.
+                        </p>
+                        <br>
+                        <img src="assets/cover_images/scroll_icon0.25.png" class="scroll-image">
+                    </div>
+                </div>      
+            </div>
+        </header>
+
+
+        <div class="vizcontainer">
+    <!--     <a name="myViz" id="myViz"></a> -->
+            <div class="vwrapper">
+                <div class='tableauPlaceholder' id='viz1668132957742' style='position: relative'>
+            <!--         <noscript>
+                        <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComedyDashboard&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
+                    </noscript> -->
+                    <object class='tableauViz'  style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='ComedyDashboard&#47;Dashboard1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='render' value='true' /> <!-- parameter to refresh rather than cashe the viz as an image, it brings hand icon but they are slower -->
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComedyDashboard&#47;Dashboard1&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                        <param name='filter' value='publish=yes' />
+                    </object>
+                </div>                
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1668132957742');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                   
+                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1100px';vizElement.style.height='2227px';} 
+                    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1100px';vizElement.style.height='2227px';} 
+                    else { vizElement.style.width='100%';vizElement.style.height='1527px';}                     
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+            </div>
         </div>
-    </header>
 
 
-    <div class="vizcontainer">
-<!--     <a name="myViz" id="myViz"></a> -->
-        <div class="vwrapper">
-            <div class='tableauPlaceholder' id='viz1668132957742' style='position: relative'>
-        <!--         <noscript>
-                    <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComedyDashboard&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
-                </noscript> -->
-                <object class='tableauViz'  style='display:none;'>
-                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                    <param name='embed_code_version' value='3' /> 
-                    <param name='site_root' value='' />
-                    <param name='name' value='ComedyDashboard&#47;Dashboard1' />
-                    <param name='tabs' value='no' />
-                    <param name='toolbar' value='yes' />
-                    <param name='render' value='true' /> <!-- parameter to refresh rather than cashe the viz as an image, it brings hand icon but they are slower -->
-                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComedyDashboard&#47;Dashboard1&#47;1.png' /> 
-                    <param name='animate_transition' value='yes' />
-                    <param name='display_static_image' value='yes' />
-                    <param name='display_spinner' value='yes' />
-                    <param name='display_overlay' value='yes' />
-                    <param name='display_count' value='yes' />
-                    <param name='language' value='en-US' />
-                    <param name='filter' value='publish=yes' />
-                </object>
-            </div>                
-            <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1668132957742');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                   
-                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1100px';vizElement.style.height='2227px';} 
-                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1100px';vizElement.style.height='2227px';} 
-                else { vizElement.style.width='100%';vizElement.style.height='1527px';}                     
-                var scriptElement = document.createElement('script');                    
-                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
+
+        <div class="footer">
+            <a name="footertext"></a>
         </div>
-    </div>
 
-
-
-    <div class="footer">
-        <a name="footertext"></a>
-        <article>
-        </article>
-    </div>
-
-
-</body>
+    </body>
 </html>
